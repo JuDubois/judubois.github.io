@@ -1,0 +1,22 @@
+h1 {
+  font-size: 45px;
+  font-family: 'Slabo 27px', serif;
+  margin-top: 2%;
+}
+
+h2 {
+	font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+  margin: 2%;
+}
