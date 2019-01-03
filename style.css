@@ -21,6 +21,25 @@ img {
   margin: 2%;
 }
 
-.test {
-  
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  max-width: 300px;
+}
+
+.soon_text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 15%;
+}
+
+hr {
+  height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  width: 310px;
 }

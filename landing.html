@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,300i|Slabo+27px" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -25,11 +25,15 @@
 
     <main class="container">
 
-        <form action="https://formspree.io/justine.dubois.pro@gmail.com" method="POST">
-          <input type="text" name="name">
-          <input type="email" name="_replyto">
-          <input type="submit" value="Me tenir informé">
-        </form>
+          <p class="soon_text">Bientôt disponible</p>
+          <hr>
+
+          <form action="https://formspree.io/justine.dubois.pro@gmail.com" method="POST">
+              <div class="form-group">
+                <input type="email" name="_replyto" class="form-control" aria-describedby="emailHelp" placeholder="Entrez votre email">
+              </div>
+              <button type="submit" class="btn btn-outline-info">Me tenir informé</button>
+          </form>
 
       </main>
 
