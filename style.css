@@ -26,14 +26,19 @@ nav {
   margin-left: -20px;
 }
 
+#logo {
+  margin-top: 2%;
+}
+
 #intro {
   text-align: left;
   font-size: 20px;
   margin-top: 1%;
 }
 
-img {
-  margin: 2%;
+main img {
+  margin-right: 2%;
+  margin-bottom: 5%;
 }
 
 form {
