@@ -1,3 +1,7 @@
+header {
+	text-align: center;
+}
+
 h1 {
   font-size: 45px;
   font-family: 'Slabo 27px', serif;
@@ -9,12 +13,17 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
-body {
-	text-align: center;
+h3 {
+	font-size: 38px;
+  font-family: 'Slabo 27px', serif;
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  margin-left: -20px;
 }
 
 #intro {
@@ -55,6 +64,16 @@ hr {
   font-weight: bold;
 }
 
+.icons {
+  text-align: center;
+}
+
 #cursor {
   cursor: pointer;
+}
+
+.border {
+  border-width : 1px;
+  border-color : gray;
+  border-style : solid;
 }
