@@ -1,5 +1,13 @@
+/* --ALL-- */
+
+/* header */
+
 header {
 	text-align: center;
+}
+
+#logo {
+  margin-top: 2%;
 }
 
 h1 {
@@ -13,22 +21,27 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
-h3 {
-	font-size: 38px;
-  font-family: 'Slabo 27px', serif;
-}
-
-p {
-	font-family: 'Roboto', sans-serif;
-}
+/* menu */
 
 nav {
   margin-left: -20px;
 }
 
-#logo {
-  margin-top: 2%;
+/* text */
+
+p {
+	font-family: 'Roboto', sans-serif;
 }
+
+/* images */
+
+.img_border {
+  border-width : 1px;
+  border-color : #cecece;
+  border-style : solid;
+}
+
+/* --HOME-- */
 
 #intro {
   text-align: left;
@@ -41,13 +54,24 @@ main img {
   margin-bottom: 5%;
 }
 
-form {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 6%;
-  margin-bottom: 6%;
-  max-width: 300px;
+/* --PROJECT-- */
+
+/* title */
+
+h3 {
+	font-size: 38px;
+  font-family: 'Slabo 27px', serif;
 }
+
+/* images */
+
+.cover {
+	object-fit: cover;
+	width: 350px;
+	height: 250px;
+}
+
+/* --LANDING-- */
 
 .soon_text {
   font-family: 'Roboto', sans-serif;
@@ -56,6 +80,14 @@ form {
   text-align: center;
   font-size: 40px;
   margin-top: 7%;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  max-width: 300px;
 }
 
 hr {
@@ -75,10 +107,4 @@ hr {
 
 #cursor {
   cursor: pointer;
-}
-
-.border {
-  border-width : 1px;
-  border-color : gray;
-  border-style : solid;
 }
