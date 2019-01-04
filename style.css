@@ -71,6 +71,15 @@ h3 {
 	height: 250px;
 }
 
+.rounded_image{
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:90px;
+  height:90px;
+}
+
 /* --LANDING-- */
 
 .soon_text {
