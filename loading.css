@@ -10,8 +10,8 @@ body
 
 body:hover
 {
-    background-color: #76bfcb;
-   transition-property: background-color; /* Active la transition sur background-color */
+    background-color: #5dc1cd;
+    transition-property: background-color; /* Active la transition sur background-color */
     transition-duration: 1.3s; /* La transition dure 1s */
 }
 
