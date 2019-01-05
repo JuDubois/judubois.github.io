@@ -54,15 +54,71 @@ p {
 
 /* --HOME-- */
 
-#intro {
-  text-align: left;
-  font-size: 20px;
-  margin-top: 1%;
+/* images */
+
+.cover {
+	object-fit: cover;
+	height: 300px;
 }
 
-main img {
-  margin-right: 2%;
-  margin-bottom: 5%;
+ .img_home {
+	 width: 100%;
+
+ }
+
+ .row {
+     width : 100%;
+
+ }
+
+ .row > div {
+     float : left;
+
+ }
+
+ .col {
+     width : 425px;
+ }
+
+@media only screen and (min-width:500px) and (max-width:980px) {
+     .row > div {
+         margin : 0 0.5%;
+     }
+     .col {
+         width : 32.3%;
+     }
+ }
+
+@media only screen and (max-width:500px) {
+     .row {
+         width; : 100%;
+     }
+
+     .col {
+         width : 98%;
+         float : none;
+     }
+}
+
+/* text */
+
+.background {
+	  font-size: 28px;
+    font-family: 'Slabo 27px', serif;
+		height: 270px;
+		margin-top: 0em;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-bottom: 0em;
+ }
+
+.background_blue {
+	 background-color: #cbf1f4;
+}
+
+.background_gray {
+	 background-color: #f2f2f2;
 }
 
 /* --PROJECT-- */
@@ -76,10 +132,9 @@ h3 {
 
 /* images */
 
-.cover {
-	object-fit: cover;
-	width: 350px;
-	height: 250px;
+.img_project {
+	margin-right: 2%;
+  margin-bottom: 5%;
 }
 
 .rounded_image{
@@ -89,6 +144,7 @@ h3 {
   border-radius:50px;
   width:90px;
   height:90px;
+	margin-right: 10px;
 }
 
 /* --LANDING-- */
