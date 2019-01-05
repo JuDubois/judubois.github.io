@@ -2,23 +2,34 @@
 
 /* header */
 
+@media (min-width:980px) {
+	body {
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+}
+
 header {
 	text-align: center;
+	background-color: #99d5db;
+	height: 320px;
 }
 
 #logo {
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 26px;
   font-family: 'Slabo 27px', serif;
   margin-top: 1%;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 14px;
   font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	margin-top: -3px;
 }
 
 /* menu */
