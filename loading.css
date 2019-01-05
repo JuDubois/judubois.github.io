@@ -32,7 +32,7 @@ button {
     -ms-transition: -ms-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
     cursor: pointer;
-
+    outline:0;
 }
 button:hover {
     transform:rotate(360deg); /* Permet de définir le deg max de la rotation durant l'animation */
