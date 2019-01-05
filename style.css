@@ -189,6 +189,7 @@ p {
 h3 {
 	font-size: 38px;
   font-family: 'Slabo 27px', serif;
+	margin-top: 20px;
 }
 
 /* images */
@@ -216,7 +217,7 @@ h3 {
   font-style: italic;
   text-align: center;
   font-size: 40px;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 form {
@@ -227,7 +228,7 @@ form {
   max-width: 300px;
 }
 
-hr {
+.landing_hr {
   height: 6px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
   border: 0;
@@ -244,4 +245,5 @@ hr {
 
 #cursor {
   cursor: pointer;
+	margin-right: 8px;
 }
