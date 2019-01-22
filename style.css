@@ -192,6 +192,13 @@ h3 {
 	margin-top: 20px;
 }
 
+h4 {
+	font-size: 24px;
+  font-family: 'Slabo 27px', serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 /* images */
 
 .img_project {
@@ -206,7 +213,7 @@ h3 {
   border-radius:50px;
   width:90px;
   height:90px;
-	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 /* --LANDING-- */
