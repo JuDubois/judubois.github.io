@@ -3,8 +3,8 @@ body {
     height: 100vh;
     margin: 0;
     text-align: center;
-    animation: colorchange 4s;
-    -webkit-animation: colorchange 4s;
+    animation: colorchange 2s;
+    -webkit-animation: colorchange 2s;
 }
 
 @keyframes colorchange {
@@ -27,13 +27,15 @@ body {
 
 @keyframes rotateAnim {
     from {transform: rotate(0);}
-    to {transform: rotate(720deg);}
+    to {transform: rotate(540deg);}
 }
 
 button {
+    height: 250px;
     background: rgba(255,255,255,0);
     border: none;
+    padding: 0;
     outline: 0;
-    animation: rotateAnim 4s;
-    -webkit-animation: rotateAnim 4s;
+    animation: rotateAnim 2s;
+    -webkit-animation: rotateAnim 2s;
 }
