@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url('https://fonts.googleapis.com/css?family=Roboto|Satisfy|Slabo+27px');
 
 /* --ALL-- */
 
@@ -13,24 +13,32 @@
 
 header {
 	text-align: center;
-	height: 320px;
+	height: 300px;
 }
 
 #logo {
-  margin-top: 5%;
+  margin-top: 30px;
 }
 
 h1 {
   font-size: 26px;
   font-family: 'Slabo 27px', serif;
-  margin-top: 1%;
+	font-weight: 500;
+  line-height: 1.2;
+	margin-top: 15px;
 }
 
 h2 {
 	font-size: 14px;
   font-family: 'Roboto', sans-serif;
 	font-style: italic;
+	font-weight: 500;
+  line-height: 1.2;
 	margin-top: -3px;
+}
+
+.container {
+	min-height: 900px;
 }
 
 /* text */
@@ -85,9 +93,25 @@ p {
   }
 }
 
+.background {
+	background-color: #edf2f2;
+	height: 220px;
+	margin-top: 0;
+	margin-bottom: 7px;
+	padding-top: 180px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 30px;
+}
+
 .content {
   position: relative;
   width: 100%;
+}
+
+.content a, .content p {
+	text-decoration: none;
+	color: black;
+	text-align: center;
 }
 
 .content .content-overlay {
@@ -152,7 +176,6 @@ p {
 h3 {
 	font-size: 38px;
   font-family: 'Slabo 27px', serif;
-	margin-top: 20px;
 }
 
 h4 {
@@ -174,6 +197,11 @@ h4 {
 	margin-bottom: 10px;
 }
 
+.img_project {
+	margin-right: 2%;
+	margin-bottom: 5%;
+}
+
 /* --LANDING-- */
 
 .soon_text {
@@ -182,7 +210,6 @@ h4 {
   font-style: italic;
   text-align: center;
   font-size: 40px;
-  margin-top: 5%;
 }
 
 form {
