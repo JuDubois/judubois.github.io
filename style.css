@@ -17,23 +17,23 @@ header {
 }
 
 #logo {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 h1 {
-  font-size: 26px;
-  font-family: 'Slabo 27px', serif;
+    font-size: 26px;
+    font-family: 'Slabo 27px', serif;
 	font-weight: 500;
-  line-height: 1.2;
+    line-height: 1.2;
 	margin-top: 15px;
 }
 
 h2 {
 	font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	font-weight: 500;
-  line-height: 1.2;
+    line-height: 1.2;
 	margin-top: -3px;
 }
 
@@ -50,9 +50,9 @@ p {
 /* images */
 
 .img_border {
-  border-width : 1px;
-  border-color : #cecece;
-  border-style : solid;
+    border-width : 1px;
+    border-color : #cecece;
+    border-style : solid;
 }
 
 /* --HOME-- */
@@ -60,23 +60,23 @@ p {
 /* images */
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
-  flex: 32.5%;
-  max-width: 32.5%;
-  padding: 4px;
+    flex: 32.5%;
+    max-width: 32.5%;
+    padding: 4px;
 
 }
 
 .column img {
-  vertical-align: middle;
-  height: 400px;
-  width:100%;
-  object-fit: cover;
-  margin-bottom: 7px;
+    vertical-align: middle;
+    height: 400px;
+    width:100%;
+    object-fit: cover;
+    margin-bottom: 7px;
 }
 
 @media screen and (max-width: 800px) {
@@ -104,8 +104,8 @@ p {
 }
 
 .content {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .content a, .content p {
@@ -115,58 +115,58 @@ p {
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
-  position: absolute;
-  height: 98%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 98%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
 }
 
 .content:hover .content-overlay{
-  opacity: 1;
+    opacity: 1;
 }
 
 .content-details {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .content:hover .content-details{
-  top: 50%;
-  left: 50%;
-  opacity: 1;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
 }
 
 .content-details h3{
-  color: #ffffff;
-  font-weight: 500;
-  letter-spacing: 0.10em;
-  margin-bottom: 2px;
-  text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.10em;
+    margin-bottom: 2px;
+    text-transform: uppercase;
 }
 
 .content-details p{
-  color: #ffffff;
-  font-size: 14px;
+    color: #ffffff;
+    font-size: 14px;
 }
 
 .fadeIn-bottom{
-  top: 80%;
+    top: 80%;
 }
 
 /* --PROJECT-- */
@@ -175,13 +175,13 @@ p {
 
 h3 {
 	font-size: 38px;
-  font-family: 'Slabo 27px', serif;
+    font-family: 'Slabo 27px', serif;
 	margin-bottom: 15px;
 }
 
 h4 {
 	font-size: 24px;
-  font-family: 'Slabo 27px', serif;
+    font-family: 'Slabo 27px', serif;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
@@ -189,12 +189,12 @@ h4 {
 /* images */
 
 .rounded_image{
-  overflow:hidden;
-  -webkit-border-radius:50px;
-  -moz-border-radius:50px;
-  border-radius:50px;
-  width:90px;
-  height:90px;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
 	margin-bottom: 10px;
 }
 
@@ -206,38 +206,38 @@ h4 {
 /* --LANDING-- */
 
 .soon_text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  text-align: center;
-  font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
 }
 
 form {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 6%;
-  margin-bottom: 6%;
-  max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    max-width: 300px;
 }
 
 .landing_hr {
-  height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-  border: 0;
-  width: 310px;
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    width: 310px;
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .icons {
-  text-align: center;
+    text-align: center;
 }
 
 #cursor {
-  cursor: pointer;
+    cursor: pointer;
 	margin-right: 30px;
 }
 
@@ -257,5 +257,5 @@ form {
 
 .contact p {
 	font-size: 28px;
-  font-family: 'Slabo 27px', serif;
+    font-family: 'Slabo 27px', serif;
 }
