@@ -4,11 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Porfolio Justine Dubois</title>
-
+    <title>Portfolio Justine Dubois</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="all">
-
 </head>
 
 <body>
@@ -20,78 +17,40 @@
 
     </header>
 
+    <div class="row menu">
+        <button name="menu" class="menu-item menu-item-selected" data-filter-tag="all">Works</button>
+        <button name="menu" class="menu-item" data-filter-tag="web">Web</button>
+        <button class="menu-item" data-filter-tag="print">Print</button>
+        <!-- <button class="menu-item">Handmade</button> -->
+        <a class="menu-item" href="contact.html">Contact</a>
+    </div>
+
     <main class="container">
 
         <div class="row">
 
             <div class="column">
-                <div class="content">
-                    <p class="background">bienvenue sur mon site !</p>
-                </div>
-                <div class="content">
-                    <a href="resa.html">
+                <div class="content" data-tags="design web development">
+                    <a href="city.html">
                         <div class="content-overlay"></div>
-                        <img src="img/home/resa.png" alt="Réseau d'échange des savoirs associatifs">
+                        <img src="img/home/city.png" alt="ItsMyCity">
                         <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Résa</h3>
-                            <p class="content-text">Flyer promotionnel pour le réseau d'échange des savoirs associatifs</p>
+                            <h3 class="content-title">ItsMyCity</h3>
+                            <p class="content-text">Application mobile</p>
                         </div>
                     </a>
                 </div>
-                <div class="content">
-                    <a href="ligue.html">
+                <div class="content" data-tags="design web development">
+                    <a href="bookwilders.html">
                         <div class="content-overlay"></div>
-                        <img src="img/home/ligue.png" alt="Rapport activités Ligue de l'enseignement">
+                        <img src="img/home/bookwilders.png" alt="Book des wilders">
                         <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Ligue de l'enseignement</h3>
-                            <p class="content-text">Mise en page du rapport d'activités</p>
+                            <h3 class="content-title">Book des wilders</h3>
+                            <p class="content-text">Présentation de la promo 2019 de la Wild Code School</p>
                         </div>
                     </a>
                 </div>
-                <div class="content">
-                    <a href="halloween.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/halloween.png" alt="GSM55">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Halloween GSM55</h3>
-                            <p class="content-text">Offre promotionnelle pour le site GSM55</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="memoire.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/memoire.png" alt="Mémoire de fin d'études">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Mémoire de fin d'études</h3>
-                            <p class="content-text">Mouvement et écriture du corps</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="milk.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/milk.png" alt="Carte Milk & Keïli">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Carte Milk & Keïli</h3>
-                            <p class="content-text">Cartons pour petits gateaux d'anniversaire de la marque Milk</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="content">
-                    <a href="pictolab.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/pictolab.png" alt="Pictolab">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Pictolab</h3>
-                            <p class="content-text">Promotion du centre numérique Saint-Ex</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="content">
+                <div class="content" data-tags="design print">
                     <a href="milo.html">
                         <div class="content-overlay"></div>
                         <img src="img/home/milo.png" alt="Mission locale">
@@ -101,7 +60,40 @@
                         </div>
                     </a>
                 </div>
-                <div class="content">
+                <div class="content" data-tags="design print">
+                    <a href="ligue.html">
+                        <div class="content-overlay"></div>
+                        <img src="img/home/ligue.png" alt="Rapport activités Ligue de l'enseignement">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Ligue de l'enseignement</h3>
+                            <p class="content-text">Mise en page du rapport d'activités</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content" data-tags="design web development">
+                    <a href="viti.html">
+                        <div class="content-overlay"></div>
+                        <img src="img/home/viti.png" alt="Application pour Viticoncept">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Viticoncept</h3>
+                            <p class="content-text">Application de suivi des vignes</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content" data-tags="design web">
+                    <a href="soldes.html">
+                        <div class="content-overlay"></div>
+                        <img src="img/home/soldesgsm.png" alt="Soldes GSM55">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Soldes GSM55</h3>
+                            <p class="content-text">Offre promotionnelle pour le site GSM55</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content" data-tags="design print">
                     <a href="pop.html">
                         <div class="content-overlay"></div>
                         <img src="img/home/pop.png" alt="On la joue pop">
@@ -112,76 +104,52 @@
                         </div>
                     </a>
                 </div>
-                <div class="content">
-                    <a href="am.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/am.png" alt="Application pour Viticoncept">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Carte de visite</h3>
-                            <p class="content-text"></p>
-                        </div>
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="menu.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/menu.png" alt="Carte des vins pour le restaurant Freschezza">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Carte des vins</h3>
-                            <p class="content-text">Pour le restaurant Freschezza, en collaboration avec Julien Priez
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="contact.html">
-                        <p class="background">contact</p>
-                    </a>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="content">
-                    <a href="viti.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/viti.png" alt="Application pour Viticoncept">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Viticoncept</h3>
-                            <p class="content-text">Application de suivi des vignes</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="bookwilders.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/bookwilders.png" alt="Book des wilders">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Book des wilders</h3>
-                            <p class="content-text">Présentation de la promo 2019 de la Wild Code School</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="soldes.html">
-                        <div class="content-overlay"></div>
-                        <img src="img/home/soldesgsm.png" alt="Soldes GSM55">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Soldes GSM55</h3>
-                            <p class="content-text">Offre promotionnelle pour le site GSM55</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="content">
+                <div class="content" data-tags="design print">
                     <a href="typo.html">
                         <div class="content-overlay"></div>
                         <img src="img/home/typo.png" alt="Livret pour apprendre les règles typographiques">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title">Règles typographiques</h3>
-                            <p class="content-text">Livret pour communiquer les règles typographiques à des étudiants en graphisme</p>
+                            <p class="content-text">Livret pour communiquer les règles typographiques à des étudiants en
+                                graphisme</p>
                         </div>
                     </a>
                 </div>
-                <div class="content">
+            </div>
+
+            <div class="column">
+                <div class="content" data-tags="design web development">
+                    <a href="pictolab.html">
+                        <div class="content-overlay"></div>
+                        <img src="img/home/pictolab.png" alt="Pictolab">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Pictolab</h3>
+                            <p class="content-text">Promotion du centre numérique Saint-Ex</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content" data-tags="design web">
+                    <a href="halloween.html">
+                        <div class="content-overlay"></div>
+                        <img src="img/home/halloween.png" alt="GSM55">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Halloween GSM55</h3>
+                            <p class="content-text">Offre promotionnelle pour le site GSM55</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content" data-tags="design print">
+                    <a href="resa.html">
+                        <div class="content-overlay"></div>
+                        <img src="img/home/resa.png" alt="Réseau d'échange des savoirs associatifs">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Résa</h3>
+                            <p class="content-text">Flyer promotionnel pour le réseau d'échange des savoirs associatifs
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content" data-tags="print">
                     <a href="gooty.html">
                         <div class="content-overlay"></div>
                         <img src="img/home/gooty.png" alt="Gooty">
@@ -197,6 +165,49 @@
 
     <footer>
     </footer>
+
+    <script>
+        document.addEventListener('click', function (e) {
+            const menuItem = e.target;
+            resetFilter();
+
+            const tag = menuItem.getAttribute('data-filter-tag');
+            if (tag === null) return;
+
+            menuItem.setAttribute('class', 'menu-item menu-item-selected');
+            const items = document.getElementsByClassName('menu-item');
+
+            for (let i = 0; i < items.length; i++) {
+                const itemTag = items[i].getAttribute('data-filter-tag');
+                if (itemTag === tag) continue;
+                items[i].setAttribute('class', 'menu-item');
+            }
+
+            if (tag !== 'all') filterTag(tag);
+        });
+
+        function filterTag(tag) {
+            const items = document.getElementsByClassName('content');
+
+            for (let i = 0; i < items.length; i++) {
+                const itemTags = items[i].getAttribute('data-tags');
+
+                if (itemTags != null) {
+                    if (itemTags.indexOf(tag) < 0) {
+                        items[i].setAttribute('data-toggle', 'off');
+                    }
+                }
+            }
+        };
+
+        function resetFilter() {
+            const items = document.getElementsByClassName('content');
+
+            for (let i = 0; i < items.length; i++) {
+                items[i].setAttribute('data-toggle', 'on');
+            }
+        };
+    </script>
 
 </body>
 

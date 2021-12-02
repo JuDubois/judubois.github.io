@@ -13,7 +13,7 @@
 
 header {
 	text-align: center;
-	height: 300px;
+	height: 240px;
 }
 
 #logo {
@@ -41,6 +41,26 @@ h2 {
 	min-height: 900px;
 }
 
+.menu {
+    margin: 20px 5px;
+}
+
+.menu-item {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.menu-item-selected {
+    background-image: linear-gradient(transparent calc(80% - 4px), #dceced 0);
+}
+
 /* text */
 
 p {
@@ -62,6 +82,7 @@ p {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .column {
@@ -258,4 +279,12 @@ form {
 .contact p {
 	font-size: 28px;
     font-family: 'Slabo 27px', serif;
+}
+
+[data-toggle='on'] {
+    display:block;
+}
+  
+[data-toggle='off'] {
+    display:none;
 }
